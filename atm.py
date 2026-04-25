@@ -41,3 +41,18 @@ print("2.Deposite Amount")
 print("3.Withdraw")
 print("4.Statement")
 print("5.Exit")
+
+
+choice = input("Enter choice:")
+if choice == "1":
+  checkbalance()
+elif choice == "2":
+  deposit()
+elif choice == "3":
+  withdraw()
+elif choice == "4":
+  statement()
+elif choice == "5":
+  break
+else:
+  print("Invalid Choice!")
